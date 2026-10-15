@@ -3,7 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>EduHub Web</title>
+    <title>EduHub Web — CLB &amp; sự kiện sinh viên ĐH Đồng Tháp</title>
+    <meta name="description" content="Cổng thông tin câu lạc bộ và sự kiện dành cho sinh viên Trường Đại học Đồng Tháp: xem lịch sự kiện, tìm CLB phù hợp và đăng ký thành viên.">
+    <!-- Open Graph: thay "ten-tai-khoan" bằng tên tài khoản GitHub sau khi bật GitHub Pages -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="EduHub Web">
+    <meta property="og:title" content="EduHub Web — CLB &amp; sự kiện sinh viên ĐH Đồng Tháp">
+    <meta property="og:description" content="Xem lịch sự kiện, tìm câu lạc bộ phù hợp và đăng ký thành viên.">
+    <meta property="og:url" content="https://github.com/kevinnnsss/Front-End/">
+    <meta property="og:image" content="https://github.com/kevinnnsss/Front-End/blob/master/assets/kevins.JPG">
+    <meta property="og:locale" content="vi_VN">
+    <meta name="theme-color" content="#001D45">
+    <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+    <!-- Ch02: một tệp CSS duy nhất, main.css tự @import các lớp còn lại -->
+    <link rel="stylesheet" href="css/main.css">
     <!-- TODO(ch1-T5): thêm meta description, Open Graph (og:title, og:description, og:image, og:url) và favicon assets/logo.svg -->
   </head>
   <body>
@@ -35,7 +48,7 @@
         <section class="container section" aria-labelledby="su-kien-sap-toi">
           <div class="section__head">
             <h2 id="su-kien-sap-toi">Sự kiện sắp tới</h2>
-            <a href="https://fconline.garena.vn/tin-tuc/su-kien/">Xem tất cả sự kiện -> </a>      
+            <a href="events-detai.html">Xem tất cả sự kiện -> </a>      
           </div>
           <div class="card-gird">
           <article class="card events-card">
@@ -131,6 +144,7 @@
       </div>
     </footer>
     <!-- TODO(ch1-T2): tạo events.html — bảng lịch 8 sự kiện (caption, thead/tbody/tfoot, th scope, <time>) -->
+
     <!-- TODO(ch1-T3): tạo event-detail.html — chi tiết "Workshop: Làm website đầu tiên với HTML" -->
     <!-- TODO(ch1-T4): tạo register.html — form đăng ký thành viên, MSSV đúng 10 chữ số -->
     <!-- TODO(ch1-T5): bật GitHub Pages, ghi link vào README.md -->
